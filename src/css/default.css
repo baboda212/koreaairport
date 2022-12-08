@@ -152,6 +152,9 @@ header #gnb .depth2.show{
 #sitemap.show{
     display: block;
 }
+#sitemap .fa-solid{
+    display: none;
+} 
 
 /* footer */
 footer{
