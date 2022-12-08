@@ -1,0 +1,111 @@
+@import "/src/css/mobile_default.css";
+header{
+    height: 100px;
+    /* outline: 1px solid red; */
+}
+/* main-banner */
+#main-banner{
+    width: 100%;
+    height: calc((44vh - 100px));
+    overflow: hidden;
+}
+#main-banner img{
+    width: 100%;
+    overflow: hidden;
+}
+#section2{
+    width: 100%;
+}
+.img1 > img{
+    max-width: 100%;
+}
+.content1{
+    padding: 10px;
+}
+.content1 h1{
+    font-size: 21px;
+    font-weight: bold;
+    color: #03A1DF;
+    margin-bottom: 1em;
+}
+.content1 p{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 1em;
+}
+#section3{
+    background-image: url(/images/content2bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 140px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.content2{
+    text-align: center;
+}
+.content2 h1{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.content2 p{
+    font-size: 14px;
+    width: 25em;
+}
+#section4 .content3 h1{
+    font-size: 21px;
+    font-weight: bold;
+    color: #03A1DF;
+    margin-bottom: 1em;
+    margin-top: 30px;
+}
+.content3{
+    padding: 10px;
+}
+#section4 .content3 p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1em;
+}
+#section4 .content3 img{
+    width: 100%;
+}
+#section4 .content4{
+    width: 100%;
+    padding: 30px 10px 30px 10px;
+}
+#section4 .content4 h1{
+    font-size: 21px;
+    color: #03A1DF;
+    margin-bottom: 1em;
+}
+#section4 .content4 .content4-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#section4 .content4 .content4-1 .gotoicon{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #000;
+    display: flex;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+#section5 {
+    width: 100%;
+    height: 120px;
+    background-image: url(/images/section5bn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* outline: 1px solid red; */
+}

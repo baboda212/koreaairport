@@ -1,0 +1,217 @@
+/* sub_about.css(회사소개부분) */
+@import "./default.css";
+
+/*  서브메뉴부분 */
+#submenu{
+    width: 1440px;
+    height: 75px;
+    margin: 0 auto;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgba(51, 51, 51, 0.23);    
+}
+#submenu > .container ul{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid red; */
+}
+#submenu ul li a{
+    color: #333;
+    display: block;
+    font-size: 18px;
+}
+#submenu ul li{
+    margin-right: 30px;
+}
+#submenu ul li:last-child{
+    margin-right: 0;
+}
+#submenu span{
+    font-weight: bold;
+}
+
+/* section1 */
+#section1{
+    background-image: url(/images/abouttitle.jpg);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 655px;
+    margin: 0 auto;
+    position: relative;
+
+}
+#section1 ul{
+    display: flex;
+    position: absolute;
+    top: 500px;
+    left: 450px;
+}
+#section1 ul li{
+    margin-right: 95px;
+}
+#section1 h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0.7em;
+}
+#section1 p{
+    font-size: 16px;
+}
+/* section2 */
+#section2 {
+    background-image: url(/images/section2.jpg);
+    background-repeat: no-repeat;
+    height: 840px;
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+#section2 h1{
+    font-size: 200px;
+    color: #e4e4e4;
+    font-weight: bold;
+    padding-left: 160px;
+    /* outline: 1px solid red; */
+}
+#section2 h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    position: absolute;
+    top: 150px;
+    left: 260px;
+    /* outline: 1px solid red; */
+}
+#section2 p{
+    font-size: 23px;
+    margin: 0 50px;
+    /* outline: 1px solid red;  */
+}
+/* section3 */
+#section3 {
+    background-image: url(/images/section3.jpg);
+    background-repeat: no-repeat;
+    height: 828px;
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+#section3 h1{
+    font-size: 200px;
+    color: #e4e4e4;
+    font-weight: bold;
+    padding-left: 160px;
+    /* outline: 1px solid red; */
+}
+#section3 h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    position: absolute;
+    top: 150px;
+    left: 260px;
+    /* outline: 1px solid red; */
+}
+#section3 p{
+    font-size: 23px;
+    margin: 0 50px;
+    /* outline: 1px solid red;  */
+}
+/* section4 */
+#section4{
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+#section4 h1{
+    font-size: 200px;
+    color: #e4e4e4;
+    font-weight: bold;
+    padding-left: 160px;
+    /* outline: 1px solid red; */
+}
+#section4 h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    position: absolute;
+    top: 150px;
+    left: 260px;
+    /* outline: 1px solid red; */
+}
+#section4 .p1{
+    width: 1440px;
+    background-color: #f1f1f1;
+    padding: 20px 50px 70px 50px;
+    font-size: 23px;
+    margin: 0 auto;
+    /* outline: 1px solid red;  */
+}
+#section4 .content_seg{
+    width: 1440px;
+    height: 700px;
+    background-color: #f1f1f1;
+    display: flex;
+    padding: 0 50px;
+    gap: 5px;
+    /* outline: 1px solid red; */
+}
+#section4 .content_seg .seg{
+    /* outline: 1px solid red; */
+    width: calc((100% - 10px) / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section4 .content_seg .seg h3{
+    font-size: 23px;
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* outline: 1px solid red; */
+    background-color: #fff;
+}
+#section4 .content_seg .seg p{
+    font-size: 18px;
+    width: 400px;
+    height: 220px;
+    background-color: #fff;
+    padding: 0 10px 10px 10px;
+}
+/* section5 */
+#section5{
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+#section5 h1{
+    font-size: 200px;
+    color: #e4e4e4;
+    font-weight: bold;
+    padding-left: 160px;
+    /* outline: 1px solid red; */
+}
+#section5 h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    position: absolute;
+    top: 150px;
+    left: 260px;
+    /* outline: 1px solid red; */
+}
+#section5 address{
+    display: flex;
+    justify-content: space-around;
+}
+#section5 .piframe{
+    margin: 0 100px;
+    margin-bottom: 100px;
+}
+#section5 .miframe{
+    display: none;
+}

@@ -1,0 +1,155 @@
+/* index.css */
+/* default.css불러오기 */
+@import "./default.css";
+
+/* main-banner */
+#main-banner{
+    width: 1440px;
+    height: 810px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/*section2 Inside Airport Services */
+#section2{
+    width: 1440px;
+    height: 500px;
+    background-image: url(/images/content1bg.jpg);
+    background-repeat: no-repeat;
+    /* outline: 1px solid red; */
+    margin: 0 auto;
+}
+#section2 > .container{
+    display: flex;
+}
+.content1{
+    width: 50%;
+    /* outline: 1px solid red; */
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.content1 h1{
+    font-size: 39px;
+    font-weight: bold;
+    color: #03A1DF;
+    margin-bottom: 1em;
+}
+.content1 p{
+    font-size: 23px;
+    color: #333;
+}
+.img1{
+    width: 50%;
+    /* outline: 1px solid red; */
+    padding: 50px 50px 50px 0;
+}
+.img1 > img{
+    max-width: 647px;
+    max-height: 412px;
+}
+
+/* section3 ESG */
+#section3{
+    background-image: url(/images/content2bg.jpg);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 542px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.content2{
+    text-align: center;
+}
+.content2 h1{
+    font-size: 39px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.content2 p{
+    font-size: 30px;
+    width: 38em;
+}
+/* section4 KAS소식 및 바로가기 */
+#section4{
+    width: 1440px;
+    height: 558px;
+    margin: 0 auto;
+}
+#section4> .container{
+    display: flex;
+}
+#section4 .content3{
+    background-color: #f1f1f1;
+    width: 50%;
+    padding-top: 50px;
+    /* outline: 1px solid red; */
+}
+#section4 .content3 h1{
+    font-size: 30px;
+    color: #03A1DF;
+    margin-bottom: 1em;
+    margin-left: 100px;
+}
+#section4 .content3 p{
+    font-size: 21px;
+    font-weight: bold;
+    color: #333;
+    width: 12em;
+}
+#section4 .content3 .content3-1{
+    display: flex;
+    justify-content: center;
+}
+#section4 .content3 .content3-1 .news{
+    width: calc((100% - 40px) / 2);
+    gap: 20px;
+    padding: 10px 50px;
+    text-align: center;
+}
+#section4 .content4{
+    width: 50%;
+    padding-top: 50px;
+    /* outline: 1px solid red; */
+}
+#section4 .content4 h1{
+    font-size: 30px;
+    color: #03A1DF;
+    margin-bottom: 1em;
+    margin-left: 100px;
+}
+#section4 .content4 .content4-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#section4 .content4 .content4-1 .gotoicon{
+    width: 250px;
+    height: 100px;
+    border: 1px solid #000;
+    display: flex;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+#section4 .content4 .content4-1 .gotoicon p{
+    font-size: 16px;
+    width: 7em;
+}
+/* section5 배너2 */
+#section5 {
+    width: 1440px;
+    height: 450px;
+    background-image: url(/images/section5bn.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+}
+
