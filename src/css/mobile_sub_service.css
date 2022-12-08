@@ -1,4 +1,4 @@
-@import "/src/css/mobile_default.css";
+@import "src/css/mobile_default.css";
 #submenu{
     display: none;
 }
