@@ -1,6 +1,6 @@
 /* index.css */
 /* default.css불러오기 */
-@import "./default.css";
+@import "default.css";
 
 /* main-banner */
 #main-banner{
@@ -14,7 +14,7 @@
 #section2{
     width: 1440px;
     height: 500px;
-    background-image: url(images/content1bg.jpg);
+    background-image: url(/images/content1bg.jpg);
     background-repeat: no-repeat;
     /* outline: 1px solid red; */
     margin: 0 auto;
