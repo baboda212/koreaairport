@@ -1,6 +1,6 @@
 /* index.css */
 /* default.css불러오기 */
-@import "default.css";
+@import "/src/css/default.css";
 
 /* main-banner */
 #main-banner{

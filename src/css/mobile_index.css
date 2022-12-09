@@ -1,4 +1,4 @@
-@import "mobile_default.css";
+@import "/src/css/mobile_default.css";
 header{
     height: 100px;
     /* outline: 1px solid red; */
