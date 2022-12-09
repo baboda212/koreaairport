@@ -10,6 +10,7 @@
 5. 메인배너 효과 : 페이드 효과 적용(5초마다 3개의 배너가 페이드 효과로 넘어감)
 6. SEO최적화 및 meta코드 및 오픈그래프 추가
 7. 파비콘 추가
+8. 사이트맵 추가 변경
 
 ![image](https://user-images.githubusercontent.com/113665619/206602223-98d11f41-c0cc-448e-8b8d-935369389ba9.png) 
 ![image](https://user-images.githubusercontent.com/113665619/206602310-ec1dca2f-0473-4561-b384-408b74210eea.png)
