@@ -1,6 +1,6 @@
 /* index.css */
 /* default.css불러오기 */
-@import "/src/css/default.css";
+@import "./default.css";
 
 /* main-banner */
 #main-banner{
@@ -14,7 +14,7 @@
 #section2{
     width: 1440px;
     height: 500px;
-    background-image: url(/images/content1bg.jpg);
+    background-image: url(../../images/content1bg.jpg);
     background-repeat: no-repeat;
     /* outline: 1px solid red; */
     margin: 0 auto;
@@ -53,7 +53,7 @@
 
 /* section3 ESG */
 #section3{
-    background-image: url(/images/content2bg.jpg);
+    background-image: url(../../images/content2bg.jpg);
     background-repeat: no-repeat;
     width: 1440px;
     height: 542px;
@@ -147,7 +147,7 @@
 #section5 {
     width: 1440px;
     height: 450px;
-    background-image: url(/images/section5bn.jpg);
+    background-image: url(../../images/section5bn.jpg);
     background-repeat: no-repeat;
     margin: 0 auto;
     /* outline: 1px solid red; */
