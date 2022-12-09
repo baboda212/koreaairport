@@ -32,10 +32,11 @@
 }
 #section1{
     width: 1440px;
-    height: 670px;
+    height: 730px;
     background-color: #f1f1f1;
-    padding: 100px 100px;
+    padding: 50px;
     margin: 0 auto;
+    /* outline: 1px solid red; */
 }
 #section1 .container{
     display: flex;
@@ -43,12 +44,14 @@
 }
 #section1 .container .text{
     width: 450px;
-    height: 250px;
+    height: 300px;
     background-color: #434188;
     color: #fff;
     padding: 50px 50px;
     position: relative;
     /* outline: 1px solid red; */
+    flex: 1;
+    margin-right: 20px;
 }
 #section1 .container .text h1{
     font-size: 39px;
@@ -59,19 +62,103 @@
 }
 #section1 .container .text img{
     position: absolute;
-    right: 0;
-    top: 100px;
+    left: 0;
+    top: 150px;
 }
-#section .container .youtube{
+#section1 .container .youtube {
+    flex: 2;
+    /* outline: 1px solid red; */
+    height: 632px;
+}
+/* #section .container .youtube {
     position: relative;
     padding-bottom: 56.25%;
-    width: 100%;
+    padding-top: 30px;
+    height:30px
     overflow: hidden;
 }
-#section .container .youtube iframe {
+#section .container .youtube iframe,
+#section .container .youtube object,
+#section .container .youtube embed {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+}  */
+
+#section2{
+    width: 1440px;
+    height: 955px;
+    margin: 0 auto;
+    padding: 50px;
+}
+#section2 h1{
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+table{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid #000;
+    text-align: center;
+    height: 50px;
+    padding: 5px;
+}
+tbody a{
+    color: #000;
+}
+tbody > tr > td:nth-child(2){
+    text-align: left;
+    padding-left: 10px;
+    width: 65rem;
+}
+thead{
+    background-color: #03A1DF;
+    color: #fff;
+}
+thead > tr > th{
+    font-weight: 600;
+}
+thead > tr > th:nth-child(1){
+    width: 3rem;
+}
+thead > tr > th:nth-child(3){
+    width: 6rem;
+}
+thead > tr > th:nth-child(4){
+    width: 7rem;
+}
+thead > tr > th:nth-child(5){
+    width: 5rem;
+}
+.page{
+    text-align: center;
+    margin-top: 10px;
+}
+.page a{
+    text-decoration: underline;
+}
+.page a span{
+    font-weight: bold;
+}
+.search{
+    text-align: right;
+    padding-bottom: 10px;
+}
+select{
+    height: 2rem;
+}
+#searchtxt{
+    height: 2rem;
+}
+#search-btn{
+    height: 2rem;
+    width: 3rem;
+    background-color: #434188;
+    color: #fff;
+    border-color: #434188;
 }
