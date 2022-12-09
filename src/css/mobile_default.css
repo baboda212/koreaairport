@@ -106,3 +106,15 @@ address{
     display: none;
 }
 
+/* 번역 */
+.goog-te-gadget{
+    display: none;
+    padding: 3px 5px;
+    border-radius: 5px;
+   } 
+   .lang{
+    display: none;
+    margin-left: 30px;
+    margin-top: 5px;
+   }
+

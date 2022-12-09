@@ -51,3 +51,13 @@ $(function(){
     })
    
 });
+/* 번역버튼(pc) */
+	function googleTranslateElementInit() {
+		new google.translate.TranslateElement({
+			pageLanguage: 'ko',
+			includedLanguages: 'ko,ja,en,fr',
+			layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+			autoDisplay: false
+		}, 'google_translate_element');
+	};
+
