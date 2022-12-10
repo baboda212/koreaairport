@@ -122,6 +122,7 @@ header #gnb .depth2.show{
     position: absolute;
     top: 50px;
     right: 50px;
+    color: #fff;
 }
 #sitemap #gnb > .depth1{
     display: flex;
