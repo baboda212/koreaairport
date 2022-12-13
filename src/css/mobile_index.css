@@ -94,7 +94,7 @@ header{
 #section4 .content4 .content4-1 .gotoicon{
     width: 100%;
     height: 100px;
-    border: 1px solid #000;
+    border: 1px solid rgba(0,0,0,0.3);
     display: flex;
     margin-bottom: 20px;
     margin-right: 20px;
