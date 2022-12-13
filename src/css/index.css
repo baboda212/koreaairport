@@ -147,9 +147,50 @@
 #section5 {
     width: 1440px;
     height: 450px;
-    background-image: url(../../images/section5bn.jpg);
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(../../images/section5bn.jpg);
     background-repeat: no-repeat;
     margin: 0 auto;
     /* outline: 1px solid red; */
+    color: #fff;
+    padding: 50px;
+}
+#section5 h1{
+    font-size: 39px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#section5 h2{
+    font-size: 30px;
+    margin-bottom: 1em;
+}
+#section5 .career{
+    /* outline: 1px solid red; */
+    display: flex;
+    gap: 10px;
+    width: 600px;
+    height: 150px;
+}
+#section5 .career1{
+    /* outline: 1px solid red; */
+    border: 1px solid #fff;
+    border-radius: 15px;
+    width: calc((100% - 20px) / 3);
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+#section5 .career1 img{
+    width: 4rem;
+}
+#section5 .career1 p{
+    font-size: 18px;
+    margin-right: 20px;
+}
+#section5 .career1:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.5);
 }
 
