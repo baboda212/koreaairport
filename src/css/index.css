@@ -148,7 +148,7 @@
     width: 1440px;
     height: 450px;
     background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.3)),
     url(../../images/section5bn.jpg);
     background-repeat: no-repeat;
     margin: 0 auto;
@@ -168,15 +168,16 @@
 #section5 .career{
     /* outline: 1px solid red; */
     display: flex;
-    gap: 10px;
-    width: 600px;
+    gap: 20px;
+    width: 800px;
     height: 150px;
 }
 #section5 .career1{
     /* outline: 1px solid red; */
     border: 1px solid #fff;
+    background-color: rgba(255,255,255,0.2);
     border-radius: 15px;
-    width: calc((100% - 20px) / 3);
+    width: calc((100% - 60px) / 4);
     display: flex;
     padding: 10px;
     align-items: center;
@@ -192,5 +193,6 @@
 #section5 .career1:hover{
     background-color: rgba(0, 0, 0, 0.5);
     border-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px #fff;
 }
 
