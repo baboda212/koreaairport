@@ -34,9 +34,12 @@ header > .container{
 header h1{
     margin-left: 40px;
     margin-top: 28px;
+    margin-right: 40px;
+    flex: 1;
 }
 header #gnb {
     display: flex;
+    flex: 3;
 }
 header #gnb .fa-solid{
     display: none;
@@ -47,7 +50,7 @@ header #gnb .depth1{
     margin-top: 35px;
 }
 header #gnb .depth1 > li{
-    margin-right: 50px;
+    margin-right: 30px;
     width: 8em;
     /* outline: 1px solid red; */
 }
