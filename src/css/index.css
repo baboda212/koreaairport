@@ -9,7 +9,29 @@
     overflow: hidden;
     margin: 0 auto;
 }
-
+#main-banner .slideimg{
+    position: relative;
+}
+#main-banner .slideimg .video{
+    width: 100%;
+}
+#main-banner .slideimg h1{
+    position: absolute;
+    top: 328px;
+    left: 434px;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+}
+#main-banner .slideimg p{
+    position: absolute;
+    top: 416px;
+    left: 394px;
+    font-size: 23px;
+    width: 652px;
+    text-align: center;
+    color: #fff;
+}
 /*section2 Inside Airport Services */
 #section2{
     width: 1440px;

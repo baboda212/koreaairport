@@ -61,14 +61,18 @@ $(function(){
 		}, 'google_translate_element');
 	};
 
-    /* youtube */
-let videoIframe = document.getElementById('video');
+    /* youtube */  
+/* let videoIframe = document.getElementById('video');
 let responsiveHeight = videoIframe.offsetWidth * 0.5625;
 videoIframe.setAttribute('height', responsiveHeight);
  
 window.addEventListener('resize', function(){
     responsiveHeight = videoIframe.offsetWidth * 0.5625;
     videoIframe.setAttribute('height', responsiveHeight);
- }); 
+ });  */
 
+ /* $(function(){
+    document.querySelector('video').defaultPlaybackRate = 0.5;
+ }); */
+ 
 

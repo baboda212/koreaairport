@@ -9,10 +9,30 @@ header{
     height: calc((44vh - 100px));
     overflow: hidden;
 }
-#main-banner img{
-    width: 100%;
-    overflow: hidden;
+#main-banner .slideimg{
+    position: relative;
 }
+#main-banner .slideimg .video{
+    width: 100%;
+}
+#main-banner .slideimg h1{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    font-size: 21px;
+    color: #fff;
+    text-align: center;
+}
+#main-banner .slideimg p{
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    font-size: 15px;
+    width: 250px;
+    text-align: center;
+    color: #fff;
+}
+
 #section2{
     width: 100%;
 }
@@ -127,14 +147,15 @@ header{
     display: flex;
     gap: 10px;
     width: 100%;
-    height: 50px;
+    flex-wrap: wrap;
 }
 #section5 .career1{
     /* outline: 1px solid red; */
     border: 1px solid #fff;
     border-radius: 15px;
-    width: calc((100% - 20px) / 3);
+    width: calc((100% - 30px) / 4);
     display: flex;
+    flex-direction: column;
     padding: 10px;
     align-items: center;
     justify-content: center;
@@ -143,6 +164,5 @@ header{
     width: 2rem;
 }
 #section5 .career1 p{
-    font-size: 16px;
-    margin-right: 20px;
+    font-size: 14px;
 }
