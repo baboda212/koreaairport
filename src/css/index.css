@@ -213,8 +213,7 @@
     margin-right: 20px;
 }
 #section5 .career1:hover{
-    background-color: rgba(0, 0, 0, 0.5);
-    border-color: rgba(0, 0, 0, 0.5);
-    box-shadow: 5px 5px #fff;
+    background-color: rgba(0, 0, 0, 0.32);
+    border-color: rgba(0, 0, 0, 0, 0.32);
 }
 
