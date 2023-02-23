@@ -12,6 +12,7 @@
 7. 파비콘 추가
 8. 사이트맵 추가 변경
 9. 사용 언어 :  HTML, CSS, Javascript
+10. 2023.02.21 메인페이지 슬라이드쇼의 로딩시간 수정
 
 ![image](https://user-images.githubusercontent.com/113665619/206602223-98d11f41-c0cc-448e-8b8d-935369389ba9.png) 
 ![image](https://user-images.githubusercontent.com/113665619/206602310-ec1dca2f-0473-4561-b384-408b74210eea.png)
